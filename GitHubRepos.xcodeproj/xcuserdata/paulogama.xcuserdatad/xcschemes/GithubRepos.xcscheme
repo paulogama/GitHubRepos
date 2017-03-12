@@ -17,7 +17,7 @@
                BlueprintIdentifier = "561A2F341E75F4D7007EF407"
                BuildableName = "GithubRepos.app"
                BlueprintName = "GithubRepos"
-               ReferencedContainer = "container:GithubRepos.xcodeproj">
+               ReferencedContainer = "container:GitHubRepos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "561A2F481E75F4D8007EF407"
                BuildableName = "GithubReposTests.xctest"
                BlueprintName = "GithubReposTests"
-               ReferencedContainer = "container:GithubRepos.xcodeproj">
+               ReferencedContainer = "container:GitHubRepos.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "561A2F341E75F4D7007EF407"
             BuildableName = "GithubRepos.app"
             BlueprintName = "GithubRepos"
-            ReferencedContainer = "container:GithubRepos.xcodeproj">
+            ReferencedContainer = "container:GitHubRepos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "561A2F341E75F4D7007EF407"
             BuildableName = "GithubRepos.app"
             BlueprintName = "GithubRepos"
-            ReferencedContainer = "container:GithubRepos.xcodeproj">
+            ReferencedContainer = "container:GitHubRepos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "561A2F341E75F4D7007EF407"
             BuildableName = "GithubRepos.app"
             BlueprintName = "GithubRepos"
-            ReferencedContainer = "container:GithubRepos.xcodeproj">
+            ReferencedContainer = "container:GitHubRepos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
