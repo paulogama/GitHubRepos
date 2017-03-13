@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  GithubRepos
+//  RepositoriesViewController.swift
+//  GitHubRepos
 //
 //  Created by Paulo Gama on 12/03/17.
 //  Copyright © 2017 Paulo Gama. All rights reserved.
@@ -15,6 +15,13 @@ class RepositoriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if let path = Bundle.main.path(forResource: "Config", ofType: "plist") {
+            if let dict = NSDictionary(contentsOfFile: path) as? [String: Any] {
+                if let url = dict["URL_BASE_HOST"] {
+                    print(url)
+                }
+            }
+        }
     }
 
 
